@@ -1,0 +1,11 @@
+server:
+  port: 9000
+  servlet:
+    context-path:  /services
+security:
+  oauth2:
+    client:
+      client-id: pluralsight
+      client-secret: pluralsightsecret
+      authorized-grant-types: authorization_code,refresh_token,password,client_credentials
+      scope: toll_read,toll_report
